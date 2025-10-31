@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Plug-and-Play Recommender Dashboard",
+    "description": "A scalable AI dashboard for personalized product recommendations.",
+    "tech": ["React", "Tailwind", "LLM"],
+    "link": "#"
+  },
+  {
+    "title": "LMS Web App",
+    "description": "A learning management platform with task uploads and student access.",
+    "tech": ["React", "Firebase"],
+    "link": "#"
+  }
+]

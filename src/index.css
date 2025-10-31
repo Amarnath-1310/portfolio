@@ -10,9 +10,12 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
   html, body, #root {
     height: 100%;
-    scroll-behavior: smooth;
   }
   body {
     @apply bg-background text-white font-sans;

@@ -4,7 +4,7 @@ import Button from '../components/ui/Button'
 
 export default function Home() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-background px-4">
+    <section id="home" className="min-h-[100vh] flex items-center justify-center bg-background px-4 py-20">
       <motion.div 
         className="text-center"
         initial={{ opacity: 0, y: 20 }}

@@ -5,9 +5,9 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="w-full bg-transparent fixed top-0 left-0 z-40">
+    <header className="w-full fixed top-0 left-0 z-40 bg-background/80 backdrop-blur-sm border-b border-white/10">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
             <a href="#home" className="text-xl font-bold" style={{ color: 'var(--color-primary)' }}>
               Portfolio
