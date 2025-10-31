@@ -6,4 +6,4 @@ export const navLinks = [
   { name: 'Skills', to: '/skills' },
   { name: 'Projects', to: '/projects' },
   { name: 'Contact', to: '/contact' },
-]
+] as const

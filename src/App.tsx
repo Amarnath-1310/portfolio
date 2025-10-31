@@ -9,9 +9,9 @@ import Skills from './sections/Skills'
 import Projects from './sections/Projects'
 import Contact from './sections/Contact'
 
-export default function App(){
+export default function App() {
   return (
-    <div>
+    <div className="min-h-screen bg-background">
       <Navbar />
       <main className="pt-20">
         <Routes>
