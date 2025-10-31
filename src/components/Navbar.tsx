@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
 import { navLinks } from '../data/navLinks'
 
 export default function Navbar() {
@@ -10,21 +9,20 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <NavLink to="/" className="text-xl font-bold" style={{ color: 'var(--color-primary)' }}>
+            <a href="#home" className="text-xl font-bold" style={{ color: 'var(--color-primary)' }}>
               Portfolio
-            </NavLink>
+            </a>
           </div>
 
           <div className="hidden md:flex md:space-x-6">
             {navLinks.map((l) => (
-              <NavLink
+              <a
                 key={l.to}
-                to={l.to}
-                className={({ isActive }) =>
-                  `text-sm font-medium ${isActive ? 'text-primary' : 'text-white/80'} hover:text-primary`}
+                href={l.to}
+                className={`text-sm font-medium text-white/80 hover:text-primary`}
               >
                 {l.name}
-              </NavLink>
+              </a>
             ))}
           </div>
 
@@ -45,15 +43,14 @@ export default function Navbar() {
         {open && (
           <div className="md:hidden mt-2 space-y-2 pb-4">
             {navLinks.map((l) => (
-              <NavLink
+              <a
                 key={l.to}
-                to={l.to}
+                href={l.to}
                 onClick={() => setOpen(false)}
-                className={({ isActive }) =>
-                  `block px-3 py-2 rounded-md text-base font-medium ${isActive ? 'text-primary' : 'text-white/80'}`}
+                className={`block px-3 py-2 rounded-md text-base font-medium text-white/80`}
               >
                 {l.name}
-              </NavLink>
+              </a>
             ))}
           </div>
         )}

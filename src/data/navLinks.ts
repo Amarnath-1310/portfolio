@@ -1,9 +1,9 @@
-export const navLinks = [
-  { name: 'Home', to: '/' },
-  { name: 'About', to: '/about' },
-  { name: 'Resume', to: '/resume' },
-  { name: 'Services', to: '/services' },
-  { name: 'Skills', to: '/skills' },
-  { name: 'Projects', to: '/projects' },
-  { name: 'Contact', to: '/contact' },
-] as const
+export const navLinks: { name: string; to: string }[] = [
+  { name: 'Home', to: '#home' },
+  { name: 'About', to: '#about' },
+  { name: 'Resume', to: '#resume' },
+  { name: 'Services', to: '#services' },
+  { name: 'Skills', to: '#skills' },
+  { name: 'Projects', to: '#projects' },
+  { name: 'Contact', to: '#contact' },
+]

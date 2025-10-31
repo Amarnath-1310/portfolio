@@ -1,0 +1,10 @@
+{
+  "name": "Amarnath",
+  "role": "Fullstack Web Developer",
+  "bio": "I am a developer who loves building scalable, accurate web apps using React, TypeScript, and AI-powered solutions.",
+  "dob": "January 01, 2000",
+  "address": "Chennai, India",
+  "email": "amarnath@example.com",
+  "phone": "+91 98765 43210",
+  "projectsCompleted": 73
+}
