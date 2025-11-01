@@ -7,4 +7,8 @@ dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 coverage/
+=======
+coverage/
+>>>>>>> ccb4818 (chore: scaffold sprint-1 portfolio)
