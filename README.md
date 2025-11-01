@@ -1,4 +1,4 @@
-# Portfolio — Sprint 1
+# Portfolio 
 
 React + TypeScript + Vite + Tailwind starter for a personal portfolio (Sprint 1)
 
